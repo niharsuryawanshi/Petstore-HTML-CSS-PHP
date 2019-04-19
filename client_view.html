@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Pet Store</title>
+	<link rel="stylesheet" href="style/pet01.css">
+</head>
+
+<body id="wrapper">
+	<h1>Pet Store</h1>
+<nav class="navigation">
+		<ul>
+			<li><a href="#">Request Service</a></li>
+			<li><a href="#">View Services</a></li>
+			<li><a href="#">Change Password</a></li>
+			<li><a href="index01.html">Logout</a></li>
+		</ul>
+	</nav>
+
+	
+	<section class="content">
+		<section class="l_img">
+				<img src="style/pet store banner 5 png.png">
+		</section>
+		<section class="ins_cont">
+			
+			<h2>Welcome Client</h2>
+			<h5>You have login successfully</h5>			
+			<p>Required information is marked with an asterisk (*)</p>
+			<form method="post" action="validate.php">
+			<table>
+				<input type="hidden" name="action" value = "client_view"/>
+				<tr>
+					<td>Client name:</td>
+					<td><input type="text" name="c_name" pattern="[a-zA-z]+"></td>
+				</tr>
+				<tr>
+					<td>*My Pet:</td>
+					<td><input type="text" name="pet" required pattern="[a-zA-z]+"></td>
+				</td>
+				<tr>
+					<td><input type="submit" value="Add New One"></td>
+				</tr>
+			</table>
+			</form>
+		</section>
+
+   		</br>	
+   		</br>
+   		</br>
+   		</br>
+   		</br>
+   		</br>
+		<footer class="footer"><small> Copyright  &copy;  2018 Pet Store</small>
+		<address><a href="mailtoakshay@waikar.com">akshay@waikar.com</a></address>
+		</footer>
+
+	</section>
+
+</body>
+</html>
