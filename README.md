@@ -3,4 +3,4 @@ The Pet store is website build in PHP, HTML and CSS to facilitate the pet store 
 
 The working project can be found on below link.
 
-http://nihar.uta.cloud/petstore/AboutUs01.html
+http://nihar.uta.cloud/petstore/index01.html
